@@ -45,7 +45,7 @@
 
 				button.uk-button.uk-button-default.uk-button-large.uk-margin-small-left(type="button" uk-toggle='target: #offcanvas-usage' class="uk-visible@m")
 					i.material-icons.uk-margin-small-right beach_access
-					| Aside From That
+					| Kidding Aside
 
 
 				#offcanvas-usage.uk-width-large(uk-offcanvas="flip:true")
@@ -56,8 +56,19 @@
 							| Engenho Novo LLP
 						p.uk-text-left Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						button.uk-button.uk-button-large.uk-button-danger.uk-margin-large-bottom
-							i.material-icons.md-48.uk-margin-small-right keyboard_arrow_down
+							i.material-icons.md-48.uk-margin-small-right directions_run
 							| Acknowledge
+						ul.uk-iconnav.uk-flex-center
+							li
+								a(href='#' uk-icon='icon: code; ratio: 2')
+							li
+								a(href='#' uk-icon='icon: link; ratio: 2')
+							li
+								a(href='#' uk-icon='icon: social;ratio: 2')
+							li
+								a(href='#' uk-icon='icon: git-fork; ratio: 2')
+							li
+								a(href='#' uk-icon='icon: quote-right; ratio: 2')
 
 	//- router-view
 </template>
