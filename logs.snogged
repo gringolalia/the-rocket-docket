@@ -1,0 +1,47 @@
+2020-03-08T19:11:51.907983+00:00 app[web.1]: > vue-cli-service serve
+2020-03-08T19:11:51.907983+00:00 app[web.1]: 
+2020-03-08T19:11:51.913487+00:00 app[web.1]: sh: 1: vue-cli-service: not found
+2020-03-08T19:11:51.917085+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-03-08T19:11:51.917280+00:00 app[web.1]: npm ERR! syscall spawn
+2020-03-08T19:11:51.917417+00:00 app[web.1]: npm ERR! file sh
+2020-03-08T19:11:51.917559+00:00 app[web.1]: npm ERR! errno ENOENT
+2020-03-08T19:11:51.918479+00:00 app[web.1]: npm ERR! rocket-to-venus@0.1.0 serve: `vue-cli-service serve`
+2020-03-08T19:11:51.918567+00:00 app[web.1]: npm ERR! spawn ENOENT
+2020-03-08T19:11:51.918678+00:00 app[web.1]: npm ERR!
+2020-03-08T19:11:51.918772+00:00 app[web.1]: npm ERR! Failed at the rocket-to-venus@0.1.0 serve script.
+2020-03-08T19:11:51.918847+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-03-08T19:11:51.926987+00:00 app[web.1]: 
+2020-03-08T19:11:51.927155+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-03-08T19:11:51.927226+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-03-08T19_11_51_919Z-debug.log
+2020-03-08T19:11:52.001512+00:00 heroku[web.1]: Process exited with status 1
+2020-03-08T19:16:58.000000+00:00 app[api]: Build started by user domitian-quasar@protonmail.ch
+2020-03-08T19:17:58.905621+00:00 app[api]: Deploy 5db2df2e by user domitian-quasar@protonmail.ch
+2020-03-08T19:17:58.905621+00:00 app[api]: Release v13 created by user domitian-quasar@protonmail.ch
+2020-03-08T19:17:59.627447+00:00 heroku[web.1]: State changed from crashed to starting
+2020-03-08T19:18:02.444825+00:00 heroku[web.1]: Starting process with command `npm run serve`
+2020-03-08T19:18:03.000000+00:00 app[api]: Build succeeded
+2020-03-08T19:18:05.016847+00:00 app[web.1]: 
+2020-03-08T19:18:05.016874+00:00 app[web.1]: > rocket-to-venus@0.1.0 serve /app
+2020-03-08T19:18:05.016875+00:00 app[web.1]: > vue-cli-service serve
+2020-03-08T19:18:05.016875+00:00 app[web.1]: 
+2020-03-08T19:18:05.021267+00:00 app[web.1]: sh: 1: vue-cli-service: not found
+2020-03-08T19:18:05.024582+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-03-08T19:18:05.024772+00:00 app[web.1]: npm ERR! syscall spawn
+2020-03-08T19:18:05.024916+00:00 app[web.1]: npm ERR! file sh
+2020-03-08T19:18:05.025066+00:00 app[web.1]: npm ERR! errno ENOENT
+2020-03-08T19:18:05.025936+00:00 app[web.1]: npm ERR! rocket-to-venus@0.1.0 serve: `vue-cli-service serve`
+2020-03-08T19:18:05.026039+00:00 app[web.1]: npm ERR! spawn ENOENT
+2020-03-08T19:18:05.026201+00:00 app[web.1]: npm ERR!
+2020-03-08T19:18:05.026365+00:00 app[web.1]: npm ERR! Failed at the rocket-to-venus@0.1.0 serve script.
+2020-03-08T19:18:05.026487+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-03-08T19:18:06.307118+00:00 app[web.1]: 
+2020-03-08T19:18:06.307412+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-03-08T19:18:06.307472+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-03-08T19_18_05_027Z-debug.log
+2020-03-08T19:18:06.530761+00:00 heroku[web.1]: State changed from starting to crashed
+2020-03-08T19:18:06.358201+00:00 heroku[web.1]: Process exited with status 1
+2020-03-08T19:18:17.289982+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sprockets-for-rockets.herokuapp.com request_id=acb9a0c8-a73a-4602-9a04-39558889a5b8 fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
+2020-03-08T19:18:18.037599+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sprockets-for-rockets.herokuapp.com request_id=c1555c69-12c9-4261-94ea-7589a467aa28 fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
+2020-03-08T19:18:22.659060+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sprockets-for-rockets.herokuapp.com request_id=b3c71d81-4686-4344-bf0e-335b2562ad5e fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
+2020-03-08T19:18:23.577015+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sprockets-for-rockets.herokuapp.com request_id=2ea68975-a460-4cec-86ae-6c4e8fccce2c fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
+2020-03-08T19:18:24.948048+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=sprockets-for-rockets.herokuapp.com request_id=55d0c69f-4428-47d9-a50b-a3db9e8d7551 fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
+2020-03-08T19:18:25.651154+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=sprockets-for-rockets.herokuapp.com request_id=936fed26-6eb2-4b92-8dd4-7510a7c9ffaf fwd="186.231.130.57" dyno= connect= service= status=503 bytes= protocol=https
