@@ -9,6 +9,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@vue/cli": "^4.2.3",
     "core-js": "^3.6.4",
     "express": "^4.17.1",
     "pug": "^2.0.4",
